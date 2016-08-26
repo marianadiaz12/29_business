@@ -19,8 +19,20 @@
 .video{
 	width: 100%;
 }
-.foim{
-	background-image: url("../image/banner.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+.azulback{
+	background-color: #0369B9;
+}
+.marback{
+	background-color: #080A29;
+}
+/*Checar como funciona*/
+#sep {
+	padding: 4% 0%;
+	position: relative;
+}
+#sep img{
+	position: absolute;
+	left:45%;
+	top:50%;
+	transform: translateY(-50%);
 }
