@@ -1,0 +1,8 @@
+.white{
+	color: white;
+}
+.fondo{
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
