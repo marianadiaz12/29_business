@@ -1,8 +1,18 @@
+/*Colores para letras*/
 .white{
 	color: white;
+}
+.azul{
+	color:#61C2FC;
+}
+.azulm{
+	color: #0368A5;
 }
 .fondo{
 	background-image: url("../image/large.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.fa{
+	background-color: 
 }
