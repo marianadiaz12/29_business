@@ -18,14 +18,17 @@
 }
 .ser{
 	border-radius: 50%;
-	padding: 2%;
-	border: 1px solid #61C2FC;
+	padding: 5%;
+	box-shadow: 3px 2px 5px #999;
 }
 .im{
 	width: 40%;
 }
 .video{
 	width: 100%;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: # ff0000;
 }
 .sec2{
 	background-image: url("../image/sec-2.jpg");
@@ -44,7 +47,6 @@
 }
 .azulback{
 	background-color: #0369B9;
-	opacity: 0.5;
 }
 .marback{
 	background-color: #080A29;

@@ -1742,6 +1742,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 1;
   }
 }
+.navbar .navbar-toggle .icon-bar {
+  background-color: # ff0000;
+}
 
 .flipInX {
   -webkit-backface-visibility: visible !important;
