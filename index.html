@@ -3,6 +3,7 @@
 	<head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  	<link rel="shortcut icon" href="favicon.ico">
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -10,72 +11,78 @@
 	<body>
 		<header class="fondo white">
 			<div class="container">
-				<div class=" row">
-           		    <div class="row pd-1">
-							<div class="col-xs-12 col-md-4 pd-0">
-								<a id="any" href="index.html"><img src="image/user-r.png" alt=""></a>
-								<div id="mostrar-nav" class="icon-gears"></div>
-							</div>
-							<div class="col-xs-12 col-md-8 pd-0">
-								<nav >
-									<ul class=" menu_sec">
-										<li><a href="#service"><span class="icono icon-search"></span>¿Qué me ofrece?</a></li>
-										<li><a href="#ejemplo"><span class="icono icon-search"></span>¿Cómo funciona?</a></li>
-										<li><a href="#more"><span class="icono icon-search"></span>¿Por qué usarlo?</a></li>
-										<li><a href="contact.html"><span class="icono icon-search"></span>Contactanos</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
+           		<div class="row">
+					<div class="col-lg-6 col-xs-6">
+						<img class="img-responsive" src="image/user-r.png" alt="log">
+					</div>	
+					<div class="col-lg-6 col-xs-6">
+						<nav class="navbar navbar-default" role="navigation">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+								<span class="sr-only">Menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbar-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a class="white" href="#ofrece"><span class="icono icon-search"></span>¿Qué me ofrece?</a></li>
+									<li><a class="white" href="#ejemplo"><span class="icono icon-search"></span>¿Cómo funciona?</a></li>
+									<li><a class="white" href="#porque"><span class="icono icon-search"></span>¿Por qué usarlo?</a></li>
+									<li><a class="white" href="#contactanos"><span class="icono icon-search"></span>Contactanos</a></li>
+								</ul>
+							</div>	
+						</nav>
+					</div>
+				</div>
+             
+                      
+
+
                     <div class="row">
                     	<div class="col-lg-12 col-xs-12">
                     		<h2>Obtén videos de personas reales utilizando tu sitio web, en 1 Hora</h2>
                     	</div>
                     </div>
-                    <div class="row fa">
-                    	<div class="col-lg-6 col-xs-6">
-                    		<h4>PRUEBA GRATUITA</h4>
-                    		<p>Obtén un video gratis de 5 minutos</p>
-                    	</div>
-                    	<div class="col-lg-6 col-xs-6">
-                    		<a data-toggle="modal" href="contac.html" class="btn btn-primary btn-large">Abrir ventana modal</a>
-                    	</div>
- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" href="contact.html">Open Modal</button>
+                </div> 
+            </div>  
+            <div class="container-fluid">
+            	<div class="row azulback">
+					<div class="col-lg-6 col-xs-6 text-right">
+						<h4>Prueba Gratuita</h4>
+						<p>Obtén un video gratis de 5 minutos</p>
+					</div>
+					<div class="col-lg-6 col-xs-6">
 
-
-
-
-
-
-                    </div>
-                </div>
-            </div>    
+					</div>
+				</div>	
+            </div>     
 		</header>
 		<div class="container">
 			<section><!--Sección1-->
-				<div class="row">
+				<div class="row mr-t">
 					<div class="col-lg-12 col-xs-12">
+						<a name="ofrece"></a>
 						<h2 class="azul text-center">Nuestros Servicios</h2>
 					</div>
 				</div>
-				<div class="row text-center">
+				<div class="row text-center mr-t">
 					<div class="col-lg-4 col-xs-12">
 						<img class="center-block img-responsive" src="image/icon/video.png">
-						<p class="azulm">Pruebalo gratis</p>
-						<p>Obtén un primer video screencast de un usuario navegando tu página.</p>
+						<a class="tamr" href="">Pruebalo <br>gratis</a>
+						<p class="pd">Obtén un primer video screencast de un usuario navegando tu página.</p>
 					</div>
 					<div class="col-lg-4 col-xs-12">
-						<img class="center-block img-responsive" src="image/icon/clock.png">
-						<p class="azulm">Compra el servicio completo</p>
-						<p>Si te gustó; compra nuestro servicio completo que incluye? vídeos y feedback.</p>
+						<img class="bounceInLeft animated center-block img-responsive" src="image/icon/clock.png">
+						<a class="tamr" href="">Compra el <br>servicio completo</a>
+						<p class="pd">Si te gustó; compra nuestro servicio completo que incluye? vídeos y feedback.</p>
 					</div>
 					<div class="col-lg-4 col-xs-12">
 						<img class="center-block img-responsive" src="image/icon/file.png">
-						<p class="azulm">Obtén el resultado en 1 día</p>
-						<p>Te haremos llegar los vídeos y el feedback completo el  mismo día.</p>
+						<a class="tamr" href="">Obtén el resultado <br>en 1 día</a>
+						<p class="pd">Te haremos llegar los vídeos y el feedback completo el  mismo día.</p>
 					</div>
 				</div>	
-				<div class="row" id="sep"><!--separadorm, funcion-->
+				<div class="row mr-t" id="sep"><!--separadorm, funcion-->
 					<div class="col-lg-12 col-xs-12">
 						<hr>
 						<div class="img">
@@ -85,31 +92,36 @@
 				</div>		
 			</section><!--Fin de sección1-->
 			<section><!--Sección2-->
-				<div class="row">
+				<div class="row mr-t">
 					<div class="col-lg-6 col-xs-12">
-						<h2 class="azul">Ejemplo de <img class="img-responsive" src="image/logo-2.jpg"></h2>
-						<p>En este video te damos un ejemplo de un integrante de nuestro panel evalunado la experiencia de uso de <a href="">mimediamanzana.com</a></p>
+						<a name="ejemplo"></a>
+						<h2 class="azul texim">Ejemplo de</h2>
+						<img class="img-responsive im" src="image/logo-2.jpg">
+						<p>En este video te damos un ejemplo de un integrante de nuestro panel evalunado la experiencia de uso de</p>
+						<a href="">mimediamanzana.com</a>
 						<p>El objetivo de User Testing 360 es identificar situaciones confusas de los ususarios web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
 						<img class="img-responsive center-block" src="image/flecha.png" alt="flecha">
 					</div>
 					<div class="col-lg-6 col-xs-12">
-						<iframe class="img-responsive video" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</section><!--Fin de sección2-->
 			<section><!--Inicio de la seccion3-->
-				<div class="row">
+				<div class="row mr-t">
 					<hr>
-					<div class="col-lg-6 col-xs-12">
-						<img class="img-responsive" src="image/sec-2.jpg">
+					<div class="col-lg-6 col-xs-12 sec2">
+						<img class="icon" src="image/icon/edi.png">
+						<img class="icon" src="image/icon/settings.png">
+						<img class="icon" src="image/icon/search.png">
 					</div>
 					<div class="col-lg-6 col-xs-12">
-						<h2 class="azul">Lo quiero ¿Qué hago?</h2>
-						<h3>Paso 1: Envianos tu link</h3>
+						<h2>Lo quiero ¿Qué hago?</h2>
+						<h4 class="azul">Paso 1: Envianos tu link</h4>
 						<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el vídeo y el informe con el feedback.</p>
 
-						<h3>Paso 2: Describe a tu público objetivo</h3>
-						<p>Describe las acciones que quieres que evaluemos por ejemplo:<br>
+						<h4 class="azul">Paso 2: Describe a tu público objetivo</h4>
+						<p>Describe las acciones que quieres que evaluemos por ejemplo:
 						<ul>
 							<li>A primera vista de ¿Qué crees que trata la página?</li>
 							<li>Busca el botón de incribirte ó comprar</li>
@@ -117,7 +129,7 @@
 						</ul>
 						Puedes preguntas como las que te mostramos.</p>
 
-						<h3>Paso 3: Recibe un video y el fedback completo</h3>
+						<h4 class="azul">Paso 3: Recibe un video y el fedback completo</h4>
 						<p>Recibbe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
 					</div>
 				</div>
@@ -131,9 +143,11 @@
 				</div>
 			</section><!--Fin de la seccion4 -->
 			<section><!--Seccion5-->
-				<div class="row">
+				<div class="row mr-t">
 					<div class="col-lg-6 col-xs-12">
-						<h2>Por qúe usar<img class="img-responsive" src="image/logo-2.jpg"></h2>
+						<a name="porque"></a>
+						<h2 class="azul">Por qúe usar</h2>
+						<img class="img-responsive im" src="image/logo-2.jpg">
 						<p>En la Actualidad en la que nos encontramos, la web se ha convertido en el mejoer sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidade de tus usuarios, Con <a href=""> User Testing 360</a> podrás entender:</p>
 						<ul>
 							<li>¿Comó tu público objetivo verdaderamente usa tu producto?</li>
@@ -166,6 +180,7 @@
 				<div class="container">
 					<div class="row ">
 						<div class="col-lg-6 col-xs-6 white">
+							<a name="contactanos"></a>
 							<p>Escribenos a:</p>
 							<P><a href="">experiencia de usuario.lab@gmail.com</a></P>
 							<p>telef:989637935</p>
