@@ -13,9 +13,9 @@
 }
 .texim{
 	display: inline-block;
-    padding-top: 3%;
-    color: #73B7FF;
-    font-size: 2.7rem;
+  padding-top: 3%;
+  color: #73B7FF;
+  font-size: 2.7rem;
 }
 .ser{
 	border-radius: 50%;
@@ -134,4 +134,10 @@
 iframe{
   width: 100%;
   height: 315px; 
+}
+
+#mdialTamanio{
+  width: 80% !important;
+  margin-left: 10%;
+  margin-top: 10%;
 }
